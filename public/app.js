@@ -13,7 +13,7 @@ uiRoutes
   template,
   resolve: {
     currentTime($http) {
-      return $http.get('../api/sentinl/example').then(function (resp) {
+      return $http.get('../api/myapp/example').then(function (resp) {
         return resp.data.time;
       });
     }
@@ -21,10 +21,10 @@ uiRoutes
 });
 
 uiModules
-.get('app/sentinl', [])
-.controller('sentinlHelloWorld', function ($scope, $route, $interval) {
-  $scope.title = 'Sentinl';
-  $scope.description = 'Kibana Alert App for Elasticsearch';
+.get('app/myapp', [])
+.controller('myappHelloWorld', function ($scope, $route, $interval) {
+  $scope.title = 'Myapp';
+  $scope.description = 'An app';
 
   const currentTime = moment($route.current.locals.currentTime);
   $scope.currentTime = currentTime.format('HH:mm:ss');

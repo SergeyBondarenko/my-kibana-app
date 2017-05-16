@@ -1,7 +1,7 @@
 {
-  "name": "sentinl",
+  "name": "myapp",
   "version": "0.0.0",
-  "description": "Kibana Alert App for Elasticsearch",
+  "description": "An app",
   "main": "index.js",
   "kibana": {
     "version": "5.1.0"

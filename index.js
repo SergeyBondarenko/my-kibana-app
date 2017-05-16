@@ -8,9 +8,9 @@ export default function (kibana) {
     uiExports: {
       
       app: {
-        title: 'Sentinl',
-        description: 'Kibana Alert App for Elasticsearch',
-        main: 'plugins/sentinl/app'
+        title: 'Myapp',
+        description: 'An app',
+        main: 'plugins/myapp/app'
       },
       
       
@@ -20,7 +20,7 @@ export default function (kibana) {
       
       
       hacks: [
-        'plugins/sentinl/hack'
+        'plugins/myapp/hack'
       ]
       
     },

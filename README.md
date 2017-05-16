@@ -1,6 +1,6 @@
-# sentinl
+# myapp
 
-> Kibana Alert App for Elasticsearch
+> An app
 
 ---
 
